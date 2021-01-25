@@ -1,7 +1,7 @@
 # TurkceLua
 Lua programlama dili uzunca zamandır ilgimi cekiyordu, simdi ogrenme vakti!!
 # Başlarken
-Efendim başlamadan önce birkaç şeyden bahsetmem gerek. Lua gömülebilir ve yorumlanabilir bir dildir. Brezilyalı bir abimiz tarafından geliştirilmiş olup çok tatlı ve samimidir. Lua JIT(Just-in-Time Compiler) yazım olarak Lua ile aynı olsa da JIT yorumlayıcısına/derleyicisine(Lua'da hangisi olduğunu araştırmadım ikisinden birisi :D) sahiptir ve daha hızlıdır. Lua öğrendikten sonra bu konuda bir derin-araştırma (deep dive) yapacağım, amaç şimdilik Lua Öğrenmek.
+Efendim başlamadan önce birkaç şeyden bahsetmem gerek. Lua gömülebilir ve yorumlanabilir bir dildir. Brezilyalı bir abimiz tarafından geliştirilmiş olup çok tatlı ve samimidir. Lua JIT(Just-in-Time Compiler) yazım olarak Lua ile aynı olsa da JIT yorumlayıcısına/derleyicisine(Lua'da hangisi olduğunu araştırmadım ikisinden birisi :D) sahiptir ve daha hızlıdır. Lua öğrendikten sonra bu konuda bir derin-araştırma (deep dive) yapacağım, amaç şimdilik Lua öğrenmek.
 
 * ![Buradan](https://www.lua.org/start.html) ulaşabilirsiniz, eğer hata alırsanız link şudur: https://www.lua.org/start.html
 * ![Yazımı için şuraya bakabilirsiniz](https://www.lua.org/pil/contents.html), hata alırsanız link şudur: https://www.lua.org/pil/contents.html
@@ -36,5 +36,5 @@ Var canım olmaz mı! Biçim olarak daha sami hatta.
 Biçimi:
 - print(*(Misal %d bu bir tam sayı, misal bu da bir virgüllü sayı %0.1f)*:format(x,y))
 ```lua
-print(('Bir günde şu kadan saat var %d 2200 saatse şu kadar gün ediyor %.1f years'):format(2200, 2200/24))
+print(('Bir günde şu kadan saat var %d 2200 saatse şu kadar gün ediyor %.1f years'):format(24, 2200/24))
 ```
