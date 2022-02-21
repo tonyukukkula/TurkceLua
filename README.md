@@ -1,3 +1,6 @@
+# Başlamadan
+efendim öncelikle merhabalar, kodlu modlu bir şey bakıyorsanız ![ilgili linkten](https://github.com/tonyukukkula/TurkceLua/blob/main/15dk.lua) gidip okuyabilirsiniz. Bu benioku dosyası eksik kalmış ve kalacaktır.(nokta)
+
 # TurkceLua
 Lua programlama dili uzunca zamandır ilgimi cekiyordu, simdi ogrenme vakti!!
 # Başlarken
